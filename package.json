@@ -21,6 +21,7 @@
   "main": "src/components/index.js",
   "unpkg": "dist/vue-grid-layout-v3.umd.min.js",
   "scripts": {
+    "dev": "vue-cli-service serve",
     "serve": "vue-cli-service serve",
     "build": "rimraf dist && vue-cli-service build",
     "build-lib": "rimraf dist && vue-cli-service build --target lib ./src/components/index.js",
